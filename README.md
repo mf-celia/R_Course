@@ -1,32 +1,36 @@
-# Análisis descriptivo y estadística básica en estudios biomédicos con R y Markdown
+# Descriptive analysis and basic statistics in biomedical studies using R and Markdown
 
-Juan R Gonzalez
+**Juan R Gonzalez**
 
-# Programa
+Bioinformatics Research Group in Epidemiology - [BRGE](https://brge.isglobal.org)
 
-Día 1: Introducción y estadística descriptiva
-•	Lectura de archivos con diferentes formatos
-•	Selección de variables
-•	Selección de individuos
-•	Transformación y recodificación de variables
-•	Fusión de bases de datos
-•	Análisis descriptivo univariado y bivariado	
+Barcelona Institute for Global Health - [ISGlobal](http://www.isglobal.org)
 
-Día 2: Estadística básica
-•	Tests paramétricos: t-test, chi-square
-•	Tests no paramétricos
-•	Pruebas diagnósiticas, curvas ROC
-•	Correlación
-•	Regresión lineal 
+`IACS - Instituto Aragon�s de Ciencias de la Salud. Zaragoza, February 26th`
 
-Día 3: R miscelánea  
-•	Tipos de datos en R
-•	Gráficos personalizados y paneles
-•	Gráficos con la librería lattice
-•	Creación de funciones sencillas
 
-Día 4: Investigación reproducible con R 
-•	Knitr
-•	R markdown
-•	Creación de informes reproducibles con librerías de R
+## Day 1: Descriptive analysis
+> * Getting started: installing R and Rstudio
+> *	R basics
+> * Loading data into R
+> * Descriptive analysis
 
+## Day 2: Inferential analysis
+
+> * Hypothesis testing
+   1. Parametric tests: t-test, ANOVA, Chi-squared
+   2. Non-parametric tests: Fisher, Wilcoxon, Kruskall-Wallis
+> * Statistical modelling
+  1. Linear regression
+  2. Logistic regression
+  3. Survival analysis
+
+## Day 3: Miscellanea
+> * Advanced graphics
+> * Writting basic functions
+> * Improving computing 
+
+## Day 4: Reproducible research
+> * Knitr
+> * R Markdown
+> * Creating reports using R libraries

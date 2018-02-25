@@ -1,0 +1,611 @@
+tiempo	estado	sexo	edad	edad4	estclin	ik	ik5	po2	cirugia	quimio	radioter
+8	1	hombre	71	(68,74]	IIIb	86	(80,90]		No	No	No
+5	1	hombre	68	(62,68]	IIIa	87	(80,90]		No-radical	No	No
+2	1	hombre	69	(68,74]	IV	57	(50,60]		No	No	No
+7	1	hombre	71	(68,74]	IIIa	95	(90,100]		Radical	No	No
+5	1	hombre	75	(74,85]	IIIb	74	(70,80]		No	No	No
+5	1	hombre	75	(74,85]	IIIb	74	(70,80]	> 70	No	No	No
+2	1	hombre	77	(74,85]	IIIa	81	(80,90]	> 70	No	No	No
+0.5	1	hombre	66	(62,68]	IIIa	69	(60,70]	<=70	No	No	No
+2	1	hombre	67	(62,68]	IIIa	89	(80,90]		No	No	No
+4	1	mujer	56	(50,62]	IIIb	87	(80,90]		No	No	No
+34	1	hombre	67	(62,68]	I/II	82	(80,90]	> 70	Radical	No	No
+4	1	hombre	83	(74,85]	IIIb	85	(80,90]		No	No	No
+15	1	hombre	65	(62,68]	IIIb	77	(70,80]	> 70	No	No	No
+36	1	hombre	85	(74,85]	I/II	87	(80,90]	<=70	No	No	>=60G
+12	1	hombre	85	(74,85]	I/II	82	(80,90]	<=70	No	No	No
+3	1	hombre	69	(68,74]	IIIa	83	(80,90]	> 70	No	No	No
+0.5	1	hombre	75	(74,85]	IIIb	53	(50,60]		No	No	No
+19	1	hombre	61	(50,62]	IIIa	75	(70,80]	> 70	No	No	No
+10	1	hombre	65	(62,68]	IIIb	64	(60,70]	> 70	No	No	No
+6	1	hombre	80	(74,85]	IV	59	(50,60]	> 70	No	No	No
+7	1	hombre	66	(62,68]	I/II	92	(90,100]		Radical	No	No
+48	1	hombre	69	(68,74]	I/II	89	(80,90]		Radical	No	<60G
+2	1	hombre	60	(50,62]	IIIb	77	(70,80]	> 70	No	No	No
+1	1	hombre	56	(50,62]	IIIb	63	(60,70]		No	No	No
+3	1	hombre	77	(74,85]	IV	87	(80,90]	> 70	No	No	No
+11	1	hombre	67	(62,68]	IIIa	63	(60,70]	> 70	No	No	No
+2	1	hombre	67	(62,68]	IIIa	67	(60,70]	> 70	No	No	No
+7	1	hombre	59	(50,62]	IV	63	(60,70]	> 70	No	No	No
+7	1	hombre	67	(62,68]	I/II	64	(60,70]	<=70	No-radical	No	No
+48	1	hombre	76	(74,85]	I/II	82	(80,90]		Radical	No	<60G
+32	1	hombre	77	(74,85]	IIIb	86	(80,90]	> 70	No	No	<60G
+5	1	mujer	84	(74,85]	IV	50	(50,60]		No	No	No
+3	1	hombre	63	(62,68]	IIIb	51	(50,60]	> 70	No	No	No
+8	1	hombre	84	(74,85]	I/II	73	(70,80]		No	No	No
+6	1	hombre	57	(50,62]	IV	85	(80,90]	> 70	No	No	No
+35	1	hombre	79	(74,85]	I/II	67	(60,70]		No	No	No
+7	1	hombre	71	(68,74]	IIIb	70	(60,70]	<=70	No	No	No
+10	1	hombre	70	(68,74]	IIIb	76	(70,80]		No	No	No
+2	1	hombre	76	(74,85]	IV	66	(60,70]	> 70	No	No	No
+2	1	hombre	71	(68,74]	IIIa	77	(70,80]	> 70	No	No	No
+5	1	hombre	66	(62,68]	I/II	91	(90,100]	> 70	No-radical	No	No
+5	1	mujer	68	(62,68]	IIIa	65	(60,70]		Radical	No	No
+1	1	hombre	77	(74,85]	I/II	72	(70,80]	> 70	No	No	No
+5	1	hombre	63	(62,68]	I/II	75	(70,80]		No-radical	No	No
+13	1	hombre	79	(74,85]	I/II	88	(80,90]		Radical	No	No
+25	1	hombre	63	(62,68]	IIIa	83	(80,90]		No-radical	No	No
+7	1	hombre	70	(68,74]	IIIb	52	(50,60]		No	No	No
+7	1	hombre	73	(68,74]	IIIa	90	(80,90]	<=70	No	No	No
+10	1	hombre	61	(50,62]	IV	72	(70,80]	> 70	No	No	No
+5	1	hombre	72	(68,74]	IIIb	93	(90,100]	> 70	No	No	No
+16	1	hombre	74	(68,74]	I/II	76	(70,80]	> 70	No	No	No
+15	1	hombre	77	(74,85]	I/II	81	(80,90]	> 70	No	No	No
+2	1	hombre	56	(50,62]	IV	89	(80,90]		No	No	No
+64	0	hombre	64	(62,68]	I/II	88	(80,90]	> 70	Radical	No	No
+6	1	hombre	59	(50,62]	IIIa	75	(70,80]	> 70	No	No	No
+9	1	hombre	67	(62,68]	IIIb	84	(80,90]	> 70	No	No	No
+8	1	hombre	78	(74,85]	IIIa	68	(60,70]	<=70	No	No	No
+31	1	hombre	68	(62,68]	IIIb	83	(80,90]		No	No	No
+3	1	hombre	63	(62,68]	IIIa	83	(80,90]		No	No	No
+3	1	hombre	60	(50,62]	IV	86	(80,90]	> 70	No	No	No
+6	1	hombre	60	(50,62]	IIIb	67	(60,70]	> 70	No	No	No
+4	1	hombre	55	(50,62]	IIIa	81	(80,90]	> 70	No	No	No
+0.5	1	hombre	79	(74,85]	IV	53	(50,60]	<=70	No	No	No
+2	1	hombre	71	(68,74]	IIIb	53	(50,60]	<=70	No	No	No
+5	1	hombre	81	(74,85]	IIIa	89	(80,90]	<=70	No	No	No
+7	1	hombre	75	(74,85]	IIIa	76	(70,80]	<=70	No	No	No
+1	1	hombre	66	(62,68]	IIIb	70	(60,70]	<=70	No	No	No
+9	1	hombre	78	(74,85]	IIIa	86	(80,90]	> 70	No	No	No
+10	1	hombre	80	(74,85]	IV	84	(80,90]	> 70	No	No	No
+7	1	hombre	72	(68,74]	IIIb	67	(60,70]	> 70	No	No	No
+18	1	hombre	66	(62,68]	I/II	98	(90,100]	<=70	No	No	>=60G
+31	1	hombre	66	(62,68]	IV	73	(70,80]	> 70	No	Platino	No
+10	1	hombre	75	(74,85]	I/II	84	(80,90]	> 70	No	No	>=60G
+35	0	hombre	69	(68,74]	I/II	80	(70,80]	> 70	Radical	No	No
+4	1	mujer	65	(62,68]	IV	65	(60,70]	> 70	No	No	No
+14	1	hombre	73	(68,74]	I/II	87	(80,90]	> 70	No-radical	No	No
+1	1	hombre	67	(62,68]	IIIa	76	(70,80]	<=70	No	No	No
+12	1	hombre	74	(68,74]	IIIb	63	(60,70]	> 70	No	No	No
+2	1	hombre	50	(50,62]	IIIb	57	(50,60]		No	No	No
+0.5	1	hombre	61	(50,62]	IV	54	(50,60]	> 70	No	No	No
+32	1	hombre	65	(62,68]	IIIb	86	(80,90]	> 70	No	Platino	<60G
+15	1	hombre	83	(74,85]	IIIa	79	(70,80]	<=70	No	No	No
+5	1	hombre	61	(50,62]	IIIb	68	(60,70]	<=70	No	No	No
+12	1	hombre	68	(62,68]	IIIa	59	(50,60]	> 70	No	No	No
+2	1	hombre	69	(68,74]	IIIb	64	(60,70]	> 70	No	No	No
+3	1	hombre	71	(68,74]	IIIa	76	(70,80]	> 70	No	No	No
+12	1	mujer	63	(62,68]	IIIb	72	(70,80]	> 70	No	No	No
+3	1	hombre	74	(68,74]	IIIb	75	(70,80]	> 70	No	No	No
+4	1	hombre	76	(74,85]	IIIb	78	(70,80]	> 70	No	No	No
+7	1	hombre	74	(68,74]	IIIb	63	(60,70]	> 70	No	No	<60G
+6	1	hombre	73	(68,74]	IIIb	89	(80,90]	> 70	No	No	No
+2	1	hombre	79	(74,85]	I/II	54	(50,60]		No	No	No
+13	1	hombre	63	(62,68]	IIIa	91	(90,100]		Radical	No	<60G
+6	1	hombre	76	(74,85]	IIIb	61	(60,70]	<=70	No	No	No
+3	1	hombre	59	(50,62]	IIIa	67	(60,70]	<=70	No	No	No
+17	1	hombre	65	(62,68]	IIIb	88	(80,90]		No	No	No
+1	1	hombre	57	(50,62]	IIIb	73	(70,80]		No	No	No
+18	1	mujer	73	(68,74]	IIIa	77	(70,80]	> 70	No	Platino	>=60G
+13	1	hombre	55	(50,62]	IIIb	71	(70,80]	> 70	No	Platino	>=60G
+0.5	1	hombre	74	(68,74]	IV	58	(50,60]		No	No	No
+13	1	hombre	56	(50,62]	I/II	64	(60,70]	> 70	Radical	No	<60G
+7	1	hombre	75	(74,85]	I/II	68	(60,70]	> 70	Radical	No	No
+7	1	hombre	70	(68,74]	IIIb	87	(80,90]	> 70	No	No	<60G
+3	1	hombre	64	(62,68]	I/II	58	(50,60]	<=70	No	No	No
+3	1	hombre	59	(50,62]	IV	54	(50,60]		No	No	No
+9	1	hombre	65	(62,68]	IIIb	78	(70,80]	> 70	No	Platino	No
+11	1	hombre	70	(68,74]	IIIb	75	(70,80]	> 70	No	No	No
+4	1	hombre	75	(74,85]	IIIb	65	(60,70]	> 70	No	Platino	No
+7	1	hombre	56	(50,62]	IIIb	81	(80,90]	> 70	No	Platino	No
+1	1	hombre	69	(68,74]	IIIb	77	(70,80]	> 70	No	No	No
+7	1	hombre	58	(50,62]	IIIb	79	(70,80]		No	No	No
+3	1	hombre	51	(50,62]	IV	85	(80,90]	<=70	No	No	No
+8	1	hombre	74	(68,74]	I/II	79	(70,80]	> 70	No	No	No
+6	1	hombre	65	(62,68]	IV	84	(80,90]	> 70	No	No	No
+43	0	hombre	72	(68,74]	IIIa	99	(90,100]	> 70	Radical	No	>=60G
+6	1	hombre	76	(74,85]	IIIa	87	(80,90]	> 70	No	No	No
+33	1	hombre	66	(62,68]	IIIa	77	(70,80]	> 70	Radical	Platino	<60G
+52	0	hombre	67	(62,68]	I/II	83	(80,90]	> 70	No	No	>=60G
+5	1	hombre	69	(68,74]	IIIb	83	(80,90]	> 70	No	Platino	No
+42	1	hombre	68	(62,68]	I/II	86	(80,90]	> 70	Radical	No	<60G
+1	1	hombre	57	(50,62]	IIIb	78	(70,80]	> 70	No	No	No
+1	1	hombre	70	(68,74]	IIIb	57	(50,60]	<=70	No	No	No
+4	1	hombre	74	(68,74]	IIIb	62	(60,70]	> 70	No	No	No
+11	1	hombre	72	(68,74]	IIIb	77	(70,80]	<=70	No	No	No
+17	1	hombre	75	(74,85]	IV	82	(80,90]	<=70	No	No	No
+3	1	mujer	72	(68,74]	IIIb	69	(60,70]	<=70	No	No	No
+1	1	hombre	74	(68,74]	IV	69	(60,70]		No	No	No
+4	1	hombre	57	(50,62]	IIIb	67	(60,70]	<=70	No	No	<60G
+4	1	hombre	84	(74,85]	IV	62	(60,70]		No	No	No
+51	0	hombre	71	(68,74]	I/II	84	(80,90]		Radical	No	No
+39	0	hombre	73	(68,74]	IIIa	87	(80,90]	> 70	Radical	No	No
+39	1	hombre	61	(50,62]	I/II	89	(80,90]	> 70	Radical	Platino	<60G
+6	1	hombre	80	(74,85]	IV	86	(80,90]	> 70	No	No	No
+9	1	hombre	56	(50,62]	IIIb	80	(70,80]	> 70	No	No	No
+8	1	hombre	66	(62,68]	I/II	74	(70,80]	> 70	No	No	No
+23	1	hombre	81	(74,85]	I/II	80	(70,80]	<=70	No	No	>=60G
+4	1	hombre	80	(74,85]	IIIb	76	(70,80]	> 70	No	No	No
+3	1	hombre	70	(68,74]	IIIb	82	(80,90]	> 70	No	No	<60G
+39	0	mujer	59	(50,62]	IIIb	90	(80,90]	> 70	Radical	No	No
+10	1	hombre	66	(62,68]	IIIb	72	(70,80]	> 70	No	No	No
+25	1	hombre	60	(50,62]	IIIb	66	(60,70]	> 70	No	No	No
+11	1	hombre	77	(74,85]	IV	92	(90,100]		No	No	No
+53	0	hombre	74	(68,74]	I/II	95	(90,100]	> 70	Radical	No	No
+8	1	mujer	63	(62,68]	IV	57	(50,60]	> 70	No	Platino	No
+5	1	hombre	65	(62,68]	IIIb	81	(80,90]	> 70	No	No	No
+12	1	hombre	82	(74,85]	IIIa	87	(80,90]	> 70	No	No	No
+3	1	hombre	66	(62,68]	IV	76	(70,80]	<=70	No	No	No
+2	1	hombre	62	(50,62]	IV	52	(50,60]	> 70	No	No	No
+3	1	hombre	63	(62,68]	IIIa	78	(70,80]	<=70	No	No	No
+1	1	hombre	73	(68,74]	IV	69	(60,70]	> 70	No	No	No
+5	1	hombre	55	(50,62]	IIIb	71	(70,80]	> 70	No	No	No
+6	1	hombre	73	(68,74]	IV	67	(60,70]		No	No	No
+23	1	hombre	71	(68,74]	I/II	69	(60,70]	<=70	No	No	No
+10	1	hombre	64	(62,68]	IIIb	89	(80,90]	> 70	No	Platino	No
+9	1	hombre	64	(62,68]	IIIb	64	(60,70]		No	Platino	No
+2	0	hombre	73	(68,74]	IIIb	77	(70,80]	> 70	No	No	No
+3	1	hombre	68	(62,68]	IIIb	87	(80,90]		No	Platino	No
+1	1	hombre	57	(50,62]	IV	61	(60,70]		No	No	No
+1	1	hombre	62	(50,62]	IV	89	(80,90]	<=70	No	No	No
+23	1	hombre	70	(68,74]	IV	99	(90,100]	<=70	No	No	No
+1	1	hombre	78	(74,85]	IIIa	71	(70,80]	<=70	No	No	No
+13	1	hombre	81	(74,85]	IIIa	91	(90,100]	> 70	No	No	No
+8	1	hombre	67	(62,68]	IV	73	(70,80]	> 70	No	No	No
+4	1	hombre	75	(74,85]	IIIb	67	(60,70]		No	No	No
+7	1	hombre	74	(68,74]	IIIb	68	(60,70]	> 70	No	No	No
+2	1	hombre	77	(74,85]	IIIb	65	(60,70]	> 70	No	No	No
+9	1	hombre	72	(68,74]	IIIa	80	(70,80]		No	Platino	<60G
+2	1	hombre	77	(74,85]	IV	62	(60,70]		No	No	No
+14	1	hombre	63	(62,68]	IV	87	(80,90]	> 70	No	No	<60G
+2	0	hombre	76	(74,85]	IIIb	67	(60,70]		No	No	No
+21	1	hombre	77	(74,85]	IIIb	87	(80,90]	> 70	No	No	No
+5	1	hombre	62	(50,62]	IV	73	(70,80]	<=70	No	No	No
+36	0	hombre	84	(74,85]	I/II	80	(70,80]		No	No	>=60G
+6	1	hombre	82	(74,85]	IIIa	68	(60,70]	> 70	No	No	No
+11	1	hombre	65	(62,68]	IIIb	87	(80,90]	> 70	No	No	No
+7	1	hombre	68	(62,68]	IIIb	56	(50,60]		No	No	No
+14	1	hombre	75	(74,85]	IIIb	93	(90,100]	> 70	No	No	<60G
+19	1	hombre	62	(50,62]	IV	66	(60,70]		No	No	No
+9	1	hombre	68	(62,68]	IV	86	(80,90]		No	No	No
+8	1	hombre	80	(74,85]	IIIa	61	(60,70]	> 70	No	No	No
+7	1	hombre	64	(62,68]	IIIb	62	(60,70]	> 70	No	No	No
+10	1	hombre	65	(62,68]	IIIa	83	(80,90]	> 70	No	Platino	No
+6	1	hombre	64	(62,68]	IIIb	82	(80,90]	> 70	No	No	No
+2	1	mujer	72	(68,74]	IV	65	(60,70]	> 70	No	No	No
+37	1	hombre	68	(62,68]	IV	66	(60,70]	<=70	No	No	No
+4	1	hombre	82	(74,85]	IIIb	66	(60,70]	> 70	No	No	No
+33	1	hombre	59	(50,62]	IIIa	78	(70,80]	> 70	Radical	No	No
+4	1	hombre	58	(50,62]	IV	63	(60,70]	> 70	No	No	No
+16	1	hombre	52	(50,62]	IIIa	79	(70,80]		No-radical	No	No
+15	1	hombre	62	(50,62]	IIIb	85	(80,90]	> 70	No	Platino	No
+3	1	hombre	62	(50,62]	IIIa	94	(90,100]	> 70	No	No	No
+5	1	hombre	68	(62,68]	IIIb	69	(60,70]	> 70	No	No	No
+82	0	hombre	63	(62,68]	I/II	71	(70,80]		Radical	No	<60G
+4	1	hombre	73	(68,74]	IIIb	82	(80,90]	> 70	No	No	No
+4	1	hombre	76	(74,85]	IV	62	(60,70]	> 70	No	No	No
+21	1	hombre	71	(68,74]	IIIa	82	(80,90]	> 70	No	Platino	No
+6	1	mujer	57	(50,62]	IV	60	(50,60]	> 70	No	No	No
+23	0	hombre	79	(74,85]	IIIa	86	(80,90]	> 70	No	Platino	>=60G
+37	0	hombre	68	(62,68]	I/II	95	(90,100]	> 70	No	No	>=60G
+2	1	hombre	71	(68,74]	IV	92	(90,100]	<=70	No	No	<60G
+0.5	1	hombre	79	(74,85]	IIIa	53	(50,60]	> 70	No	No	No
+5	1	hombre	79	(74,85]	I/II	62	(60,70]	> 70	No	No	<60G
+1	1	hombre	74	(68,74]	IV	66	(60,70]	<=70	No	No	No
+3	1	hombre	79	(74,85]	IV	74	(70,80]	> 70	No	No	No
+6	1	mujer	65	(62,68]	IV	57	(50,60]	> 70	No	No	<60G
+7	1	hombre	65	(62,68]	IIIb	84	(80,90]	> 70	No	Platino	No
+12	1	hombre	81	(74,85]	I/II	81	(80,90]	<=70	No	No	>=60G
+3	1	hombre	82	(74,85]	IIIb	62	(60,70]	<=70	No	No	No
+25	1	hombre	68	(62,68]	IIIa	94	(90,100]	> 70	No	Platino	No
+20	1	hombre	61	(50,62]	IIIa	62	(60,70]		No	Platino	No
+3	1	hombre	62	(50,62]	IIIb	73	(70,80]		No	No	No
+6	1	hombre	65	(62,68]	IIIb	59	(50,60]	> 70	No	No	No
+12	1	hombre	60	(50,62]	IIIa	61	(60,70]		No	Platino	No
+15	1	hombre	83	(74,85]	IIIa	70	(60,70]	<=70	No	No	<60G
+10	1	mujer	77	(74,85]	IV	99	(90,100]		No	No	No
+4	1	hombre	62	(50,62]	IIIb	71	(70,80]	> 70	No	Platino	No
+13	1	hombre	80	(74,85]	I/II	66	(60,70]	<=70	No	No	<60G
+15	1	hombre	81	(74,85]	I/II	93	(90,100]	> 70	Radical	No	<60G
+9	1	hombre	53	(50,62]	I/II	94	(90,100]		No-radical	No	No
+4	1	hombre	66	(62,68]	IIIa	86	(80,90]	> 70	No	Platino	No
+9	1	hombre	68	(62,68]	IIIb	69	(60,70]	> 70	No	Platino	No
+4	1	hombre	67	(62,68]	IIIa	54	(50,60]	> 70	No	No	No
+8	1	hombre	66	(62,68]	IIIa	89	(80,90]	> 70	No	No	No
+22	1	hombre	76	(74,85]	I/II	90	(80,90]	> 70	Radical	Platino	>=60G
+13	1	hombre	74	(68,74]	I/II	87	(80,90]	> 70	Radical	No	No
+5	1	hombre	74	(68,74]	IIIb	82	(80,90]	> 70	No	Platino	>=60G
+14	1	hombre	83	(74,85]	I/II	63	(60,70]	> 70	No	No	No
+5	1	hombre	65	(62,68]	IV	62	(60,70]	<=70	No	No	No
+6	1	hombre	70	(68,74]	I/II	75	(70,80]	> 70	No-radical	No	No
+5	0	hombre	85	(74,85]	IV	72	(70,80]	> 70	No	No	No
+6	1	hombre	60	(50,62]	IV	70	(60,70]		No	No	<60G
+27	1	hombre	74	(68,74]	IIIa	97	(90,100]	> 70	No	Platino	<60G
+2	1	hombre	70	(68,74]	IIIb	75	(70,80]	> 70	No	No	No
+31	0	hombre	66	(62,68]	I/II	90	(80,90]	> 70	Radical	No	No
+6	1	mujer	65	(62,68]	IV	81	(80,90]		No	No	No
+13	1	hombre	69	(68,74]	IIIb	89	(80,90]		No	Platino	>=60G
+5	1	hombre	62	(50,62]	IIIa	68	(60,70]	> 70	No	Platino	No
+22	1	hombre	60	(50,62]	IIIb	74	(70,80]	> 70	No	Platino	<60G
+11	1	hombre	60	(50,62]	IV	80	(70,80]	> 70	No	No	No
+6	1	hombre	73	(68,74]	IIIb	64	(60,70]	> 70	No	No	No
+11	0	hombre	64	(62,68]	IV	79	(70,80]	> 70	No	No	No
+3	1	mujer	66	(62,68]	IV	60	(50,60]	<=70	No	No	No
+3	1	hombre	83	(74,85]	IIIb	90	(80,90]	> 70	No	No	No
+13	1	hombre	61	(50,62]	IIIb	98	(90,100]	> 70	No	No	No
+14	1	hombre	58	(50,62]	IIIa	88	(80,90]	> 70	No	Platino	<60G
+5	1	hombre	73	(68,74]	IV	64	(60,70]	<=70	No	Platino	No
+4	1	hombre	81	(74,85]	IIIb	61	(60,70]	<=70	No	No	No
+11	1	hombre	81	(74,85]	IIIb	64	(60,70]	> 70	No	No	No
+5	1	hombre	61	(50,62]	IIIb	78	(70,80]	<=70	No	Platino	No
+20	1	hombre	55	(50,62]	IIIb	73	(70,80]	> 70	No	Platino	<60G
+15	1	hombre	71	(68,74]	IIIa	87	(80,90]	<=70	No	Platino	>=60G
+11	1	hombre	60	(50,62]	IV	91	(90,100]		No	No	No
+18	0	hombre	67	(62,68]	IIIa	99	(90,100]		No	Platino	<60G
+19	0	hombre	74	(68,74]	IIIb	99	(90,100]	> 70	No	Platino	>=60G
+6	0	hombre	66	(62,68]	IIIb	81	(80,90]		No	Platino	No
+20	0	hombre	81	(74,85]	I/II	92	(90,100]	> 70	Radical	No	No
+23	0	hombre	77	(74,85]	IIIb	76	(70,80]	<=70	No	Platino	No
+8	0	hombre	75	(74,85]	IIIa	82	(80,90]	> 70	No	Platino	>=60G
+1	1	hombre	76	(74,85]	IIIa	73	(70,80]		No	No	No
+17	0	hombre	70	(68,74]	IIIb	78	(70,80]	> 70	No	Platino	<60G
+15	1	mujer	71	(68,74]	IIIa	96	(90,100]	<=70	No	Platino	No
+18	0	hombre	72	(68,74]	IIIa	82	(80,90]	> 70	Radical	Platino	No
+18	0	hombre	82	(74,85]	I/II	96	(90,100]	> 70	No	No	No
+18	0	mujer	58	(50,62]	IIIa	93	(90,100]	> 70	No	Platino	>=60G
+3	1	hombre	68	(62,68]	IIIb	63	(60,70]	> 70	No	Platino	No
+27	0	hombre	70	(68,74]	IIIb	90	(80,90]	<=70	No	Platino	>=60G
+11	1	hombre	64	(62,68]	IV	70	(60,70]	> 70	No	No	No
+6	0	hombre	77	(74,85]	IIIb	68	(60,70]		No	Platino	No
+16	0	hombre	62	(50,62]	I/II	96	(90,100]	> 70	Radical	No	<60G
+5	1	hombre	77	(74,85]	IIIa	82	(80,90]	<=70	No	Platino	No
+12	1	hombre	77	(74,85]	IIIb	76	(70,80]	> 70	No	No	No
+4	0	hombre	71	(68,74]	I/II	80	(70,80]	> 70	No-radical	No	No
+13	0	hombre	73	(68,74]	IIIa	87	(80,90]	> 70	No	Platino	No
+13	0	hombre	60	(50,62]	IIIb	83	(80,90]	> 70	No	No	No
+4	1	hombre	60	(50,62]	IIIa	76	(70,80]	<=70	No-radical	No	No
+7	1	hombre	63	(62,68]	IIIb	61	(60,70]	<=70	No	Platino	No
+9	1	hombre	73	(68,74]	IIIb	77	(70,80]	> 70	No	Platino	No
+14	0	hombre	77	(74,85]	IIIa	92	(90,100]	> 70	No	No	<60G
+14	1	hombre	63	(62,68]	IV	67	(60,70]		No	No	No
+4	1	hombre	69	(68,74]	IIIa	71	(70,80]	> 70	No	No	No
+9	1	hombre	71	(68,74]	IV	51	(50,60]	> 70	No	No	No
+5	1	hombre	63	(62,68]	IV	52	(50,60]	> 70	No	No	No
+10	0	hombre	65	(62,68]	IIIb	88	(80,90]	> 70	No	No	No
+10	0	hombre	57	(50,62]	IV	94	(90,100]	<=70	No	No	No
+10	0	hombre	72	(68,74]	I/II	81	(80,90]		No-radical	No	No
+10	0	mujer	72	(68,74]	IIIb	88	(80,90]		No	No	No
+11	0	hombre	64	(62,68]	I/II	95	(90,100]	<=70	No	No	No
+6	1	hombre	56	(50,62]	IIIa	89	(80,90]	> 70	No	Platino	<60G
+2	1	hombre	81	(74,85]	IV	74	(70,80]	<=70	No	No	No
+9	1	hombre	74	(68,74]	IIIb	70	(60,70]	> 70	No	No	No
+28	1	hombre	55	(50,62]	I/II	83	(80,90]	> 70	Radical	No	No
+0.5	1	hombre	66	(62,68]	IIIa	70	(60,70]		No	No	No
+4	1	hombre	66	(62,68]	IV	84	(80,90]	> 70	No	No	No
+0.5	0	hombre	67	(62,68]	IV	68	(60,70]	<=70	No	No	No
+12	1	hombre	76	(74,85]	IV	86	(80,90]	> 70	No	Platino	<60G
+2	1	hombre	63	(62,68]	IIIa		(80,90]	> 70	No	Platino	No
+4	1	mujer	66	(62,68]	IIIb	56	(50,60]	> 70	No	No	No
+5	1	hombre	84	(74,85]	IV	79	(70,80]	> 70	No	No	<60G
+0.5	1	hombre	81	(74,85]	IV	85	(80,90]	<=70	No	No	No
+2	1	hombre	83	(74,85]	IIIa	99	(90,100]	> 70	No	Platino	No
+2	1	hombre	64	(62,68]	IV	71	(70,80]	<=70	No	No	No
+16	0	hombre	77	(74,85]	IIIb	64	(60,70]	> 70	No	Platino	No
+15	0	hombre	60	(50,62]	I/II	71	(70,80]	<=70	No	No	<60G
+7	0	hombre	58	(50,62]	IV	79	(70,80]		No	No	<60G
+3	1	hombre	83	(74,85]	IV	70	(60,70]	> 70	No	No	No
+7	1	hombre	80	(74,85]	I/II	71	(70,80]	<=70	No	No	<60G
+3	1	mujer	80	(74,85]	IV	74	(70,80]	<=70	No	No	No
+3	1	hombre	83	(74,85]	IIIb	69	(60,70]	<=70	No	No	No
+9	1	hombre	71	(68,74]	IIIa	73	(70,80]		Radical	No	<60G
+32	1	hombre	60	(50,62]	I/II	82	(80,90]	> 70	Radical	No	<60G
+26	0	hombre	63	(62,68]	I/II	94	(90,100]	> 70	No	No	<60G
+1	1	hombre	74	(68,74]	IV	97	(90,100]	<=70	No	No	No
+0.5	1	hombre	76	(74,85]	IV	53	(50,60]	<=70	No	No	No
+20	1	hombre	57	(50,62]	I/II	82	(80,90]	> 70	Radical	No	No
+19	1	hombre	63	(62,68]	I/II	61	(60,70]	<=70	No	No	<60G
+3	1	hombre	73	(68,74]	IV	75	(70,80]	> 70	No	No	No
+11	1	hombre	58	(50,62]	IIIb	98	(90,100]	> 70	No	No	No
+10	1	hombre	80	(74,85]	I/II	87	(80,90]	> 70	No	No	<60G
+6	1	hombre	66	(62,68]	IIIb	68	(60,70]	> 70	No	No	No
+9	1	hombre	81	(74,85]	I/II	100	(90,100]		No	No	<60G
+13	0	hombre	64	(62,68]	IIIa	84	(80,90]	<=70	No	No	<60G
+6	1	hombre	73	(68,74]	IIIb	63	(60,70]	> 70	No	No	<60G
+5	1	mujer	71	(68,74]	IIIa	52	(50,60]	> 70	No	No	No
+18	1	hombre	61	(50,62]	I/II	85	(80,90]	> 70	Radical	No	<60G
+45	0	hombre	55	(50,62]	I/II	76	(70,80]		Radical	No	No
+11	1	hombre	62	(50,62]	IIIa	68	(60,70]	> 70	No	No	No
+14	1	hombre	77	(74,85]	I/II	96	(90,100]	> 70	No	No	No
+3	0	hombre	74	(68,74]	I/II	90	(80,90]	> 70	Radical	No	No
+6	1	hombre	51	(50,62]	IIIa	86	(80,90]	> 70	Radical	No	No
+27	1	hombre	53	(50,62]	I/II	76	(70,80]	> 70	Radical	No	No
+4	1	hombre	65	(62,68]	IV	89	(80,90]	> 70	No	No	<60G
+6	1	hombre	58	(50,62]	IV	64	(60,70]	> 70	No	Platino	No
+23	1	hombre	68	(62,68]	I/II	74	(70,80]	> 70	No	No	No
+3	1	hombre	70	(68,74]	I/II	90	(80,90]	> 70	Radical	No	No
+4	1	hombre	56	(50,62]	IIIa	84	(80,90]	> 70	Radical	No	No
+2	1	hombre	73	(68,74]	IIIb	61	(60,70]	<=70	No	No	No
+3	1	hombre	56	(50,62]	IIIa	55	(50,60]	> 70	No	No	No
+0.5	1	hombre	67	(62,68]	IIIb	55	(50,60]	<=70	No	No	No
+8	1	hombre	57	(50,62]	I/II	83	(80,90]	> 70	Radical	No	<60G
+17	1	mujer	73	(68,74]	I/II	98	(90,100]	> 70	Radical	No	<60G
+13	1	hombre	62	(50,62]	IIIa	82	(80,90]	> 70	No	No	No
+7	1	hombre	68	(62,68]	I/II	91	(90,100]	> 70	No	No	<60G
+5	1	hombre	76	(74,85]	IIIa	82	(80,90]		No	No	No
+4	1	hombre	70	(68,74]	I/II	83	(80,90]	> 70	No	No	<60G
+5	1	hombre	76	(74,85]	IIIa	63	(60,70]	<=70	No	No	No
+2	1	hombre	72	(68,74]	IIIa	77	(70,80]	> 70	No-radical	No	No
+7	0	hombre	77	(74,85]	I/II	72	(70,80]	> 70	No	No	<60G
+5	1	hombre	63	(62,68]	IIIa	63	(60,70]	> 70	No	No	<60G
+8	1	hombre	54	(50,62]	IIIa	85	(80,90]	> 70	No-radical	No	No
+1	1	hombre	66	(62,68]	IV	69	(60,70]	> 70	No	No	No
+2	1	hombre	68	(62,68]	IV	84	(80,90]	> 70	No	No	<60G
+4	1	hombre	58	(50,62]	IIIb	67	(60,70]	> 70	No	No	No
+5	1	hombre	79	(74,85]	IV	59	(50,60]	<=70	No	No	No
+15	1	hombre	57	(50,62]	IIIb	85	(80,90]	> 70	No	No	No
+3	1	hombre	60	(50,62]	IIIb	63	(60,70]	> 70	No	No	No
+7	1	hombre	75	(74,85]	I/II	82	(80,90]	> 70	No	No	No
+10	1	hombre	78	(74,85]	IIIa	66	(60,70]	> 70	No	No	No
+21	1	hombre	61	(50,62]	I/II	88	(80,90]	> 70	Radical	No	<60G
+23	1	hombre	58	(50,62]	I/II	85	(80,90]	> 70	No	No	<60G
+3	1	hombre	82	(74,85]	I/II	68	(60,70]	> 70	No	No	<60G
+4	1	hombre	61	(50,62]	IV	83	(80,90]	> 70	No	No	No
+7	1	hombre	52	(50,62]	IV	87	(80,90]	> 70	No	No	No
+16	1	hombre	58	(50,62]	IIIa	86	(80,90]	> 70	Radical	Platino	<60G
+12	1	hombre	69	(68,74]	IV	82	(80,90]	> 70	No	No	No
+2	1	hombre	76	(74,85]	IIIb	82	(80,90]	> 70	No	No	No
+25	1	hombre	65	(62,68]	IIIa	73	(70,80]	> 70	Radical	No	<60G
+4	1	hombre	57	(50,62]	IV	51	(50,60]	<=70	No	No	No
+12	0	hombre	79	(74,85]	I/II	90	(80,90]	> 70	No	No	No
+2	1	hombre	54	(50,62]	I/II	65	(60,70]	> 70	Radical	No	No
+0.5	1	mujer	72	(68,74]	IV	59	(50,60]	> 70	No	No	No
+3	1	hombre	59	(50,62]	IIIb	56	(50,60]	> 70	No	No	<60G
+2	1	hombre	68	(62,68]	IIIb	85	(80,90]	> 70	No	No	No
+2	1	hombre	73	(68,74]	IIIa	90	(80,90]	> 70	Radical	No	No
+19	1	hombre	69	(68,74]	IIIa	86	(80,90]	> 70	No-radical	No	No
+22	0	hombre	58	(50,62]	I/II	90	(80,90]	<=70	Radical	No	No
+11	1	hombre	56	(50,62]	I/II	87	(80,90]	> 70	Radical	No	<60G
+1	1	hombre	73	(68,74]	IV	85	(80,90]	> 70	No	No	No
+8	1	hombre	67	(62,68]	IIIb	70	(60,70]	> 70	No-radical	No	No
+6	1	hombre	61	(50,62]	IV	60	(50,60]	<=70	No	No	<60G
+2	1	hombre	66	(62,68]	IIIa	80	(70,80]	> 70	No	No	<60G
+2	1	hombre	69	(68,74]	I/II	63	(60,70]	> 70	No	No	>=60G
+1	1	hombre	68	(62,68]	IIIb	81	(80,90]	<=70	No	No	No
+2	0	hombre	77	(74,85]	I/II	74	(70,80]	<=70	No	No	No
+3	1	hombre	74	(68,74]	IIIa	84	(80,90]	> 70	No	No	No
+30	0	hombre	61	(50,62]	IIIa	83	(80,90]	<=70	Radical	No	No
+19	0	hombre	71	(68,74]	IIIa	88	(80,90]	<=70	Radical	No	No
+19	1	hombre	54	(50,62]	IV	81	(80,90]	> 70	No	Platino	<60G
+11	1	mujer	59	(50,62]	IIIa	84	(80,90]		No-radical	No	No
+0.5	0	hombre	72	(68,74]	IV	75	(70,80]	<=70	No	No	No
+9	1	hombre	57	(50,62]	IIIb	63	(60,70]		No	Platino	No
+0.5	1	hombre	69	(68,74]	IIIb	57	(50,60]	<=70	No	No	No
+2	1	hombre	73	(68,74]	IV	89	(80,90]	<=70	No	No	No
+4	1	hombre	80	(74,85]	I/II	90	(80,90]	<=70	No	No	<60G
+8	1	hombre	72	(68,74]	I/II	83	(80,90]		Radical	No	No
+0.5	0	hombre	76	(74,85]	I/II	63	(60,70]	<=70	No	No	No
+29	0	hombre	76	(74,85]	IIIa	90	(80,90]	> 70	Radical	No	No
+25	1	hombre	56	(50,62]	IIIa	97	(90,100]	> 70	Radical	Platino	<60G
+5	1	hombre	67	(62,68]	IIIa	75	(70,80]	<=70	No	No	No
+3	1	hombre	63	(62,68]	IIIb	88	(80,90]	<=70	No	Platino	No
+2	1	hombre	62	(50,62]	IV	74	(70,80]		No	No	No
+1	1	hombre	78	(74,85]	IIIa	55	(50,60]	<=70	No	No	No
+2	1	hombre	56	(50,62]	IIIa	58	(50,60]	<=70	No	No	No
+9	1	mujer	68	(62,68]	IV	58	(50,60]	<=70	No	No	No
+10	1	hombre	54	(50,62]	IV	83	(80,90]	> 70	No	Platino	No
+2	1	hombre	70	(68,74]	IIIa	87	(80,90]	> 70	No	No	No
+5	1	mujer	74	(68,74]	IV	86	(80,90]	> 70	No	No	<60G
+5	1	hombre	63	(62,68]	IIIb	87	(80,90]	> 70	No	Platino	No
+10	1	hombre	65	(62,68]	IV	83	(80,90]	<=70	No	Platino	<60G
+1	1	hombre	71	(68,74]	IIIb	73	(70,80]	<=70	No	No	No
+2	1	hombre	83	(74,85]	IIIb	64	(60,70]	<=70	No	No	No
+1	1	hombre	66	(62,68]	IIIb	65	(60,70]	<=70	No	No	No
+0.5	1	mujer	60	(50,62]	IV	75	(70,80]	> 70	No	No	No
+11	1	hombre	67	(62,68]	I/II	88	(80,90]	<=70	No	No	>=60G
+1	1	hombre	75	(74,85]	IIIa	51	(50,60]	<=70	No	No	No
+3	1	hombre	70	(68,74]	IIIb	81	(80,90]	<=70	No	No	<60G
+3	1	hombre	56	(50,62]	IIIb	60	(50,60]	<=70	No	Platino	No
+1	1	hombre	78	(74,85]	IV	70	(60,70]	> 70	No	No	No
+2	1	hombre	67	(62,68]	IIIb	79	(70,80]	> 70	No	No	No
+4	1	hombre	56	(50,62]	IIIb	81	(80,90]	<=70	No	No	No
+0.5	0	hombre	71	(68,74]	IIIb	52	(50,60]	<=70	No	No	<60G
+11	0	hombre	62	(50,62]	I/II	81	(80,90]	> 70	Radical	No	No
+19	1	mujer	64	(62,68]	IIIa	90	(80,90]	> 70	Radical	No	No
+1	0	hombre	67	(62,68]	IIIb	57	(50,60]	> 70	No	No	No
+2	1	hombre	55	(50,62]	IV	63	(60,70]	> 70	No	Platino	No
+19	0	hombre	65	(62,68]	I/II	96	(90,100]	> 70	Radical	No	No
+2	1	hombre	69	(68,74]	IIIa	76	(70,80]	> 70	No	No	<60G
+2	1	hombre	76	(74,85]	IV	67	(60,70]		No	No	No
+16	0	mujer	76	(74,85]	I/II	53	(50,60]	> 70	No	No	No
+4	0	hombre	83	(74,85]	IV	73	(70,80]	> 70	No	No	<60G
+1	1	hombre	84	(74,85]	IIIb	75	(70,80]	> 70	No	No	No
+2	1	hombre	76	(74,85]	IIIa	82	(80,90]	<=70	No	No	<60G
+44	0	hombre	55	(50,62]	I/II	94	(90,100]	> 70	Radical	No	No
+30	0	hombre	61	(50,62]	I/II	78	(70,80]	<=70	No	No	No
+21	0	hombre	70	(68,74]	IV	96	(90,100]	> 70	No	Platino	<60G
+2	1	hombre	74	(68,74]	IIIa	88	(80,90]	> 70	No	No	<60G
+0.5	0	hombre	61	(50,62]	IIIb	86	(80,90]	> 70	No	No	<60G
+0.5	1	hombre	71	(68,74]	IIIb	66	(60,70]	<=70	No	No	No
+1	1	hombre	72	(68,74]	IV	52	(50,60]		No	No	No
+7	0	hombre	65	(62,68]	IIIb	84	(80,90]	> 70	No	No	No
+6	0	hombre	63	(62,68]	IIIb	99	(90,100]	> 70	No	Platino	<60G
+1	1	hombre	66	(62,68]	IIIb	85	(80,90]	> 70	No	No	No
+4	1	hombre	62	(50,62]	IIIb	72	(70,80]	<=70	No	Platino	<60G
+23	0	hombre	57	(50,62]	IIIa	88	(80,90]	> 70	No-radical	No	No
+7	1	hombre	70	(68,74]	I/II	84	(80,90]	> 70	No	No	No
+21	0	hombre	70	(68,74]	I/II	83	(80,90]	> 70	Radical	No	<60G
+0.5	0	hombre	64	(62,68]	I/II	80	(70,80]	> 70	No	No	>=60G
+6	1	hombre	73	(68,74]	I/II	93	(90,100]	<=70	No-radical	No	No
+10	0	hombre	58	(50,62]	I/II	80	(70,80]	<=70	Radical	No	>=60G
+4	0	hombre	70	(68,74]	I/II	80	(70,80]	> 70	No-radical	No	<60G
+3	0	hombre	67	(62,68]	I/II	86	(80,90]	> 70	Radical	No	No
+1	0	hombre	57	(50,62]	IV	90	(80,90]	> 70	No	No	No
+5	0	hombre	61	(50,62]	IV	87	(80,90]	> 70	No	No	No
+10	0	hombre	73	(68,74]	IIIa		(80,90]	> 70	Radical	No	No
+25	1	hombre	81	(74,85]	IIIa		(80,90]	> 70	No	No	No
+9	1	hombre	56	(50,62]	IIIb	75	(70,80]	> 70	No	Platino	<60G
+2	1	hombre	52	(50,62]	IV	55	(50,60]	> 70	No	No	No
+2	1	hombre	64	(62,68]	IIIa	85	(80,90]	<=70	No	No	No
+7	1	hombre	71	(68,74]	IIIa	78	(70,80]	> 70	No	No	No
+14	1	hombre	77	(74,85]	IV	99	(90,100]	> 70	No	No	No
+7	0	hombre	78	(74,85]	IIIa	89	(80,90]	<=70	No	No	No
+8	1	hombre	58	(50,62]	IV	96	(90,100]	<=70	No	No	No
+2	1	hombre	52	(50,62]	IIIb	59	(50,60]		No	No	<60G
+8	1	hombre	65	(62,68]	IV	69	(60,70]	> 70	No	No	No
+8	1	mujer	79	(74,85]	I/II	62	(60,70]		Radical	No	<60G
+1	1	hombre	75	(74,85]	IV	53	(50,60]	<=70	No	No	No
+1	1	hombre	63	(62,68]	IV	53	(50,60]	<=70	No	Platino	No
+11	1	hombre	77	(74,85]	IIIa		(80,90]		No	No	No
+18	1	hombre	58	(50,62]	IIIb	89	(80,90]	> 70	No	Platino	No
+11	1	hombre	74	(68,74]	I/II		(80,90]	> 70	No	No	No
+27	1	hombre	60	(50,62]	IIIa	68	(60,70]	> 70	No-radical	No	No
+5	1	hombre	85	(74,85]	I/II	92	(90,100]	> 70	No	No	<60G
+4	1	hombre	71	(68,74]	IIIa	78	(70,80]	<=70	No	No	No
+1	1	hombre	69	(68,74]	IV	61	(60,70]	<=70	No	No	No
+15	1	hombre	68	(62,68]	I/II	81	(80,90]	<=70	No-radical	No	No
+4	1	hombre	74	(68,74]	IIIb	53	(50,60]	<=70	No	No	No
+21	1	hombre	74	(68,74]	IIIb	88	(80,90]	> 70	No	Platino	No
+3	1	hombre	74	(68,74]	IIIb	56	(50,60]		No	No	No
+5	1	hombre	68	(62,68]	IV	69	(60,70]	<=70	No	No	No
+4	1	hombre	71	(68,74]	IIIb	65	(60,70]	> 70	No	No	No
+23	1	hombre	78	(74,85]	I/II		(80,90]	> 70	Radical	No	No
+2	1	hombre	83	(74,85]	IIIb	82	(80,90]	<=70	No	No	No
+2	1	hombre	73	(68,74]	IV	54	(50,60]	<=70	No	No	No
+2	1	mujer	52	(50,62]	IV	82	(80,90]	> 70	No	No	No
+1	1	hombre	53	(50,62]	IV	53	(50,60]	> 70	No	No	No
+12	0	hombre	67	(62,68]	IIIb	89	(80,90]	<=70	No	No	No
+5	0	hombre	62	(50,62]	I/II		(80,90]	> 70	Radical	No	No
+13	1	hombre	73	(68,74]	I/II	51	(50,60]	<=70	No	No	No
+2	1	hombre	81	(74,85]	IIIb	62	(60,70]	<=70	No	No	No
+7	1	hombre	69	(68,74]	IV	85	(80,90]	<=70	No	No	No
+1	1	hombre	62	(50,62]	IV	58	(50,60]	> 70	No	No	No
+26	0	hombre	56	(50,62]	IIIb	100	(90,100]	> 70	No-radical	Platino	>=60G
+13	1	hombre	56	(50,62]	IV	80	(70,80]	<=70	No	Platino	<60G
+4	1	hombre	69	(68,74]	IIIb	64	(60,70]	> 70	No	No	No
+4	0	hombre	77	(74,85]	I/II	82	(80,90]	<=70	No	No	No
+1	1	hombre	67	(62,68]	IIIb	69	(60,70]	<=70	No	No	No
+12	1	mujer	68	(62,68]	IIIb	79	(70,80]	<=70	No	Platino	No
+0.5	1	mujer	73	(68,74]	IIIb	68	(60,70]	<=70	No	No	No
+1	1	hombre	64	(62,68]	IV	70	(60,70]		No	No	No
+5	1	hombre	64	(62,68]	IIIb	63	(60,70]		No	Platino	No
+25	0	mujer	63	(62,68]	IIIa	77	(70,80]	> 70	Radical	No	No
+16	1	hombre	69	(68,74]	IIIb	70	(60,70]	> 70	No	No	No
+4	1	hombre	54	(50,62]	IV	85	(80,90]	> 70	No	Platino	No
+9	1	hombre	60	(50,62]	IIIb	93	(90,100]	> 70	No	Platino	<60G
+14	0	hombre	70	(68,74]	I/II	75	(70,80]	<=70	No-radical	No	No
+4	1	hombre	77	(74,85]	IIIa	62	(60,70]	> 70	No	No	No
+3	1	hombre	75	(74,85]	IIIb	66	(60,70]	> 70	No	No	No
+10	1	mujer	63	(62,68]	IV	94	(90,100]	> 70	No	Platino	>=60G
+4	1	hombre	55	(50,62]	IIIb	92	(90,100]	> 70	No	Platino	No
+3	1	mujer	61	(50,62]	I/II	99	(90,100]	> 70	Radical	No	No
+7	1	mujer	56	(50,62]	IV	75	(70,80]	> 70	No	Platino	No
+4	1	hombre	70	(68,74]	IIIa	79	(70,80]	> 70	No	Platino	No
+20	0	hombre	66	(62,68]	I/II	100	(90,100]	> 70	Radical	No	<60G
+15	1	hombre	65	(62,68]	IV	89	(80,90]	> 70	No	Platino	No
+2	0	hombre	59	(50,62]	IIIb	99	(90,100]	> 70	No	Platino	No
+0.5	1	hombre	58	(50,62]	IV	72	(70,80]	> 70	No	No	No
+9	1	hombre	77	(74,85]	I/II	66	(60,70]	> 70	No	No	No
+18	0	hombre	67	(62,68]	IIIb	80	(70,80]	> 70	No	Platino	<60G
+2	0	hombre	58	(50,62]	IV	81	(80,90]	<=70	No	No	No
+3	1	hombre	64	(62,68]	IV	60	(50,60]	<=70	No	No	No
+16	0	hombre	75	(74,85]	IIIb	93	(90,100]	> 70	No	No	No
+9	1	hombre	60	(50,62]	I/II	92	(90,100]	> 70	Radical	Platino	No
+5	1	hombre	66	(62,68]	IV	83	(80,90]	> 70	No	No	No
+1	1	hombre	81	(74,85]	IV	54	(50,60]	<=70	No	No	No
+0.5	1	hombre	65	(62,68]	IV	88	(80,90]	> 70	No	No	No
+0.5	0	hombre	51	(50,62]	IV	87	(80,90]	> 70	No	No	No
+17	0	hombre	55	(50,62]	IIIb	87	(80,90]	<=70	No	Platino	<60G
+5	1	hombre	57	(50,62]	IV	84	(80,90]	> 70	No	No	No
+2	1	hombre	62	(50,62]	IV	71	(70,80]	> 70	No	No	No
+1	1	hombre	70	(68,74]	IIIa	53	(50,60]	> 70	No	No	No
+12	1	hombre	74	(68,74]	IIIa	100	(90,100]	<=70	No	No	<60G
+4	1	hombre	71	(68,74]	IV	59	(50,60]	> 70	No	No	No
+7	1	hombre	62	(50,62]	IV	57	(50,60]	<=70	No	Platino	<60G
+2	1	hombre	79	(74,85]	IV	72	(70,80]	> 70	No	No	No
+4	1	hombre	84	(74,85]	IIIb	56	(50,60]	<=70	No	No	No
+6	1	hombre	77	(74,85]	IV	80	(70,80]	<=70	No	No	>=60G
+4	1	hombre	65	(62,68]	IV	91	(90,100]	> 70	No	No	No
+4	0	hombre	73	(68,74]	IIIa	81	(80,90]	> 70	No	No	No
+8	1	hombre	69	(68,74]	I/II	87	(80,90]	> 70	No-radical	No	>=60G
+0.5	1	hombre	70	(68,74]	I/II	76	(70,80]		Radical	No	No
+0.5	0	hombre	55	(50,62]	IIIb	63	(60,70]	> 70	No	No	No
+11	1	hombre	57	(50,62]	IIIa	81	(80,90]	<=70	No	Platino	>=60G
+3	0	hombre	57	(50,62]	IIIa	95	(90,100]	> 70	Radical	No	<60G
+14	0	hombre	55	(50,62]	IIIb	83	(80,90]	> 70	No	Platino	No
+2	1	hombre	53	(50,62]	IIIb	55	(50,60]	> 70	No	Platino	No
+0.5	0	hombre	62	(50,62]	IV	71	(70,80]		No	No	No
+1	1	hombre	77	(74,85]	IV	62	(60,70]	<=70	No	No	<60G
+2	0	hombre	79	(74,85]	IIIb	80	(70,80]	> 70	No	No	No
+10	0	hombre	68	(62,68]	I/II	86	(80,90]	> 70	Radical	No	No
+9	1	hombre	82	(74,85]	IV	96	(90,100]		No	No	No
+10	1	hombre	60	(50,62]	IIIa	83	(80,90]	<=70	No	No	No
+2	1	hombre	68	(62,68]	IV	75	(70,80]	> 70	No	No	No
+11	1	hombre	58	(50,62]	IV	60	(50,60]	> 70	No	Platino	No
+9	1	hombre	52	(50,62]	IV	61	(60,70]	> 70	No	Platino	No
+12	0	hombre	63	(62,68]	IV	91	(90,100]	<=70	No	No	No
+6	1	hombre	58	(50,62]	IV	88	(80,90]	<=70	No	Platino	No
+8	0	hombre	80	(74,85]	I/II	94	(90,100]	> 70	Radical	Platino	No
+8	0	hombre	74	(68,74]	I/II	68	(60,70]	<=70	No	No	No
+5	1	mujer	51	(50,62]	IIIb	74	(70,80]	> 70	No	Platino	No
+1	1	hombre	55	(50,62]	IIIb	74	(70,80]		No	Platino	No
+10	0	hombre	71	(68,74]	IIIa	90	(80,90]	> 70	No	No	>=60G
+4	0	hombre	79	(74,85]	IV	77	(70,80]	> 70	No	No	No
+1	1	hombre	84	(74,85]	IV	56	(50,60]	> 70	No	No	No
+11	1	hombre	62	(50,62]	I/II	75	(70,80]	> 70	No	No	No
+8	1	hombre	77	(74,85]	IIIa	81	(80,90]	<=70	No	No	No
+1	0	hombre	70	(68,74]	IIIb	77	(70,80]		No	No	No
+3	0	hombre	73	(68,74]	IV	100	(90,100]	> 70	No	No	No
+9	0	hombre	74	(68,74]	IIIa	65	(60,70]	<=70	No	No	No
+8	0	hombre	67	(62,68]	IIIa	83	(80,90]	> 70	No-radical	No	No
+2	1	hombre	70	(68,74]	I/II	83	(80,90]	> 70	Radical	No	No
+5	1	hombre	78	(74,85]	IIIb	88	(80,90]	> 70	No	No	No
+1	0	hombre	77	(74,85]	IIIa	80	(70,80]		No	No	No
+7	0	hombre	74	(68,74]	IIIa	99	(90,100]	<=70	No	Platino	No
+6	0	hombre	77	(74,85]	IIIa	79	(70,80]	> 70	No	No	No
+7	0	hombre	54	(50,62]	I/II		(80,90]	> 70	Radical	No	No
+5	0	hombre	66	(62,68]	I/II		(80,90]	> 70	Radical	No	No
+2	0	hombre	52	(50,62]	IIIa	89	(80,90]	> 70	No	Platino	No
+6	0	hombre	54	(50,62]	IV	54	(50,60]	<=70	No	Platino	No
+7	0	hombre	75	(74,85]	I/II	81	(80,90]		Radical	No	No
+4	1	hombre	52	(50,62]	IIIb	97	(90,100]	<=70	No	Platino	>=60G
+5	0	mujer	79	(74,85]	IV	61	(60,70]	> 70	No	No	>=60G
+4	0	hombre	63	(62,68]	I/II	100	(90,100]	> 70	Radical	Platino	No
+4	1	hombre	61	(50,62]	IIIb	95	(90,100]	> 70	No	No	>=60G
+2	1	mujer	50	(50,62]	IV	82	(80,90]	> 70	No	Platino	>=60G
+4	1	mujer	81	(74,85]	IIIb	75	(70,80]	> 70	No	No	No
+5	0	hombre	79	(74,85]	IIIb	97	(90,100]	> 70	No	No	>=60G
+4	0	hombre	75	(74,85]	IV	69	(60,70]	<=70	No	No	No
+7	0	hombre	63	(62,68]	IIIb	86	(80,90]	> 70	No	No	No
+2	0	hombre	61	(50,62]	I/II	86	(80,90]		No	No	No
+3	0	hombre	55	(50,62]	IIIb	89	(80,90]	> 70	No	No	No
+4	0	mujer	51	(50,62]	IV	65	(60,70]		No	Platino	>=60G
+3	1	hombre	61	(50,62]	IIIb	86	(80,90]	> 70	No	Platino	No
+4	0	hombre	63	(62,68]	I/II	88	(80,90]	> 70	No	No	No
+2	0	hombre	69	(68,74]	IIIa	86	(80,90]	> 70	No	No	No
+1	1	hombre	61	(50,62]	I/II	63	(60,70]	<=70	No	No	No
+2	0	hombre	69	(68,74]	IIIb	76	(70,80]	<=70	No	Platino	No
+3	0	hombre	69	(68,74]	IV	74	(70,80]	> 70	No	Platino	No
+1	1	hombre	66	(62,68]	IIIb	68	(60,70]	> 70	No	Platino	No
+2	1	hombre	77	(74,85]	IIIb	72	(70,80]	> 70	No	No	No
+2	0	hombre	59	(50,62]	I/II	89	(80,90]	> 70	Radical	No	No
+3	0	hombre	74	(68,74]	IV	95	(90,100]	> 70	No	No	No
+4	0	hombre	55	(50,62]	I/II	95	(90,100]	> 70	Radical	No	No
+3	0	hombre	61	(50,62]	IIIb	84	(80,90]	> 70	No	Platino	No
+0.5	1	hombre	78	(74,85]	IV	57	(50,60]	<=70	No	No	No
+3	0	hombre	60	(50,62]	IIIb	89	(80,90]		No	Platino	No
+4	1	hombre	52	(50,62]	IIIa	71	(70,80]		No-radical	No	No
+3	1	hombre	63	(62,68]	IIIb	65	(60,70]		No	No	No
+3	0	hombre	68	(62,68]	IV	69	(60,70]	<=70	No	No	No
+1	0	hombre	76	(74,85]	IIIa	74	(70,80]	<=70	No	No	No
+2	0	hombre	66	(62,68]	IIIa	80	(70,80]		No-radical	No	No
+0.5	0	hombre	63	(62,68]	I/II	51	(50,60]	> 70	Radical	No	No
