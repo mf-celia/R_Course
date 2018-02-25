@@ -33,6 +33,6 @@ vignettes/*.pdf
 *.knit.md
 
 # mine ...
-/*figure*/
+
 *.tex
 
