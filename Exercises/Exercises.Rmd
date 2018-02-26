@@ -52,16 +52,38 @@ distance <- c(148,182,173,166,109,141,166)
 
 # Descriptive analyses
 
-1. Load the `Orange` datasets from package `datasets`.
-2. Investigate the meaning of the variables (use `help` function).
-3. Describe the type of variables included in this `data.frame`.
-4. Get a summary of all variables.
-5. Compute the correlation between `age` and `circumference`.
-6. Compute the mean age of each tree (variable `Tree`).
-7. The file `multicentric.txt` contains the data of a multicentric case/control study to discover risk factors of cervical cancer. Import the data in an object called `multi`.
-8. How many samples and variable are in this database?
-9. Describe the types of variables you have.
-10. The file `multicentric.htm` contains a description of the variables. Create a table describing the number of cases and controls (variable `status`) of each country (variable `pais`) included in the study.
-11. Create the same table between cases and controls and human papillomavirus (variable 'vph'). Do you think that those variables are associated?
-12. Summarize the duration consuming oral contraceptives (variable `durco`) in cases and controls, in each country, educative level (variable `niveledu`).
+The file `multicentric.txt` contains the data of a multicentric case/control study to discover risk factors of cervical cancer. The file `multicentric.htm` contains a description of the variables included in this file. 
 
+1. Import the data in an object called `multi` (Hint: data are in text tab-delimited format: use `read.delim`).
+2. Create anoter variable called `edad1sex.cat` having age at first sexual intercourse (variable `edad1sex`) in three categories: <15, 15-18, 19-25, +25. How many woman had her first sexual intercouse before 15 years old?
+3. How many samples and variables are in this database?
+4. Describe the types of variables you have.
+5. Create a table describing the number of cases and controls (variable `status`) of each country (variable `pais`) included in the study. Which is the country having more cases? Which is the percentage of cases in Brazil?
+6. Create another table describing the number of cases and controls and human papillomavirus (variable `vph`). Do you think those variables are associated? Why?
+7. Summarize the duration consuming oral contraceptives (variable `durco`) in cases and controls, in each country and by educative levels (variable `niveledu`), respectively.
+8. Categorize the variable number of pregnancies (variable `nembara`) in quartiles. Which is the number of cases in the last quartile of number of pregnancies? and controls? 
+9. Create a boxplot to compare the age at first pregnancy (variable `edademba`) between cases and controls (variable `status`). Do you think this variable could be a risk factor of cervical cancer?
+10. Create an histogram to describe the age when women received their first test of papillomavirus (variable `edad1pap`). Is this variable normally distributed? Could you apply a test to justify your answer? (Hint -> google)
+
+
+# Hypothesis testing
+
+1. Using the same study on cervical cancer ... perform a chi-squared test or a t-test to assess which variables are associated with `status` variable (e.g case/control). NOTE: use the appropriate test when analyzing continuous variables.
+
+
+
+# Statistical modelling
+
+1. Perform the same analses than those carried out in previous exercise 1, using single logistic regression models (i.e. bivariate analyses)
+
+2. Select the set of variables that better predicts the probability of being diagnosed with cervival cancer.
+
+3. [**Advanced**]. Compute the area under the roc curve (AUC) of the selected model (Hint: investigate `pROC` package).
+
+4. The file `retinol.doc` describes a study to investigate which are the determinants of retinol observed in plasmatic concentrations since low levels of those micronutrients are associated with some types of tumors. Let's try to decipher whihc are those determinants. To this end:
+
+> * Fit single regresion models to assess association between retinol measured at plasma (variable `retplas`) and variables: `retdiet`, `colest`, `alcohol`, `fibra`, `grasa`, `calorias`, `vitamin` and `fumador`. 
+> * Select the most significant association and test model assumptions and check linearity.
+> * Use an automatic method to select the set of variables that better predict the variable `retplas`. Which is the percentage of variability explained by this model?
+
+5. The file `pulmon.doc` describes a study to investigate which are the most predictive variables of survival in patients dianosed with cancer. Perform the required analysis to answer this scientific question (e.g. Kaplan-Meier, log-rank, Multivariate Cox models).
