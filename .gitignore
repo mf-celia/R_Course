@@ -34,5 +34,7 @@ vignettes/*.pdf
 
 # mine ...
 
+*.Rmd
 *.tex
+/*.tex
 
