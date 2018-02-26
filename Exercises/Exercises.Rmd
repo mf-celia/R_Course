@@ -74,7 +74,7 @@ The file `multicentric.txt` contains the data of a multicentric case/control stu
 
 # Statistical modelling
 
-1. Perform the same analses than those carried out in previous exercise 1, using single logistic regression models (i.e. bivariate analyses)
+1. Perform the same analyses than those carried out in previous exercise 1, using single logistic regression models (i.e. bivariate analyses)
 
 2. Select the set of variables that better predicts the probability of being diagnosed with cervival cancer.
 
@@ -86,4 +86,4 @@ The file `multicentric.txt` contains the data of a multicentric case/control stu
 > * Select the most significant association and test model assumptions and check linearity.
 > * Use an automatic method to select the set of variables that better predict the variable `retplas`. Which is the percentage of variability explained by this model?
 
-5. The file `pulmon.doc` describes a study to investigate which are the most predictive variables of survival in patients dianosed with cancer. Perform the required analysis to answer this scientific question (e.g. Kaplan-Meier, log-rank, Multivariate Cox models).
+5. The file `pulmon.doc` describes a study to investigate which are the most predictive variables of survival in patients diagnosed with cancer. Perform the all the required analyses to answer this scientific question (e.g. Kaplan-Meier, log-rank, Multivariate Cox models).
