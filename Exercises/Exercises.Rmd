@@ -56,7 +56,7 @@ The file `multicentric.txt` contains the data of a multicentric case/control stu
 
 1. Import the data in an object called `multi` (Hint: data are in text tab-delimited format: use `read.delim`).
 2. Create anoter variable called `edad1sex.cat` having age at first sexual intercourse (variable `edad1sex`) in three categories: <15, 15-18, 19-25, +25. How many woman had her first sexual intercouse before 15 years old?
-3. How many samples and variables are in this database?
+3. How many individuals and variables are in this database?
 4. Describe the types of variables you have.
 5. Create a table describing the number of cases and controls (variable `status`) of each country (variable `pais`) included in the study. Which is the country having more cases? Which is the percentage of cases in Brazil?
 6. Create another table describing the number of cases and controls and human papillomavirus (variable `vph`). Do you think those variables are associated? Why?
