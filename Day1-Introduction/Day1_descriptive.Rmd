@@ -478,6 +478,16 @@ head(df)
 ```
 
 
+# Read data using Rstudio
+
+---
+
+![Read data](figures/load_data_1.png)
+
+---
+
+![Read data](figures/load_data_2.png)
+
 
 # Export data
 
@@ -507,7 +517,6 @@ Load:
 ```{r, eval=FALSE}
 load("c:/juan/data/bd.Rdata")) # an object df will be in R
 ```
-
 
 # Descriptive analysis
 

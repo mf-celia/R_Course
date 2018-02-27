@@ -87,3 +87,20 @@ The file `multicentric.txt` contains the data of a multicentric case/control stu
 > * Use an automatic method to select the set of variables that better predict the variable `retplas`. Which is the percentage of variability explained by this model?
 
 5. The file `pulmon.doc` describes a study to investigate which are the most predictive variables of survival in patients diagnosed with cancer. Perform the all the required analyses to answer this scientific question (e.g. Kaplan-Meier, log-rank, Multivariate Cox models).
+
+# Graphics
+
+1. Load the data available in the file `retinol.txt`    
+2. Create a histogram and a boxplot of `retplas` variable and plot them side-by-side on the same graphing region. Label the axes accordingly. Save your results as a Jpeg file.
+3. Plot `retplas` (y-axis) versus `retdiet` (X-axis) using an appropriate plotting command. Put a title on the graph and
+labels on the axes.
+4. Fit a linear regresion model between both variables 
+(call this regression `mod`). Add the estimated regression line to the current plot and make it the colour blue.
+5. Extract the values of the residuals using `resids <- resid(mod)`.
+Check that the residuals are normally distributed by creating
+a Q-Q plot.
+6. Create the same plot for each of the three levels of the variable `fumador`. (Hint: Use `coplot`).
+7. Build the same plot separated for males and females (variable `sexo`). (Hint: use `xyplot` from package `lattice`).
+8. Construct a histogram of `calorias` and overlay the density curve.
+(Hint: Need `hist`, `lines` and `density`.)
+9. Create in one figure (e.g. use `par(mar=c(2,1))`) the histogram of variable `calorias` for males and females (variable `sexo`).
