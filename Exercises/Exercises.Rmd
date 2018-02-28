@@ -54,7 +54,7 @@ distance <- c(148,182,173,166,109,141,166)
 
 The file `multicentric.txt` contains the data of a multicentric case/control study to discover risk factors of cervical cancer. The file `multicentric.htm` contains a description of the variables included in this file. 
 
-1. Import the data in an object called `multi` (Hint: data are in text tab-delimited format: use `read.delim`).
+1. Import the data in an object called `multi` (Hint: data are in text tab-delimited format: use `read.delim` and `na.string=c(" ")`).
 2. Create anoter variable called `edad1sex.cat` having age at first sexual intercourse (variable `edad1sex`) in three categories: <15, 15-18, 19-25, +25. How many woman had her first sexual intercouse before 15 years old?
 3. How many individuals and variables are in this database?
 4. Describe the types of variables you have.
