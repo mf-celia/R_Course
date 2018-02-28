@@ -103,4 +103,26 @@ a Q-Q plot.
 7. Build the same plot separated for males and females (variable `sexo`). (Hint: use `xyplot` from package `lattice`).
 8. Construct a histogram of `calorias` and overlay the density curve.
 (Hint: Need `hist`, `lines` and `density`.)
-9. Create in one figure (e.g. use `par(mar=c(2,1))`) the histogram of variable `calorias` for males and females (variable `sexo`).
+9. Create in one figure (e.g. use `par(mfrow=c(2,1))`) the histogram of variable `calorias` for males and females (variable `sexo`).
+
+# Reproducible Research
+
+1. Get the R code to answer the questions in the section **R basics** that are available [here:](https://github.com/isglobal-brge/R_course/blob/master/Answer_exercises/Exercise_1.R) (https://github.com/isglobal-brge/R_course/blob/master/Answer_exercises/Exercise_1.R) and create a Markdown document having each task in a section
+
+2. Create the same report for the answers to the exercises of section **Graphics** that are available [here](https://github.com/isglobal-brge/R_course/blob/master/Answer_exercises/Exercise_4.R) (https://github.com/isglobal-brge/R_course/blob/master/Answer_exercises/Exercise_1.R)
+
+3. Load the `multicentric.txt` data into R and create (using `compareGroups` package):
+
+    * A table describing the variables: `edad`, `niveledu`, `fumar`, `edad1sex`, `nembara`, `vph` by cases and controls (variable `status`).   
+
+    * A table giving the ORs of developing cervical cancer (variable `status`) for the variables: `edad`, `niveledu`, `fumar`, `edad1sex`, `nembara`, `vph`  
+
+4. Load the `pulmon.txt` data into R and create:
+
+    * A table describing the survival (variables `tiempo` and `estado`) for the variables: `sexo`, `edad4`, `estclin`, `ik5`, `cirugia`, `quimio`, `radioter`.
+
+    * A table giving the HR of mortality (variables `tiempo` and `estado`) for the variables `sexo`, `edad4`, `estclin`, `ik5`, `cirugia`, `quimio`, `radioter`.
+
+
+
+
