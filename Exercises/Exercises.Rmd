@@ -74,9 +74,9 @@ The file `multicentric.txt` contains the data of a multicentric case/control stu
 
 # Statistical modelling
 
-1. Perform the same analyses than those carried out in previous exercise 1, using single logistic regression models (i.e. bivariate analyses)
+1. Fit univariate logistic regression models to investigate which factors (`edad`, `niveledu`, `fumar`, `edad1sex`, `nembara`, `vph`) are associated with cervical cancer (variable `status`).   
 
-2. Select the set of variables that better predicts the probability of being diagnosed with cervival cancer.
+2. Select the set of variables that better predicts the probability of being diagnosed with cervival cancer. (NOTE: use complete cases `multi.comp <- multi[complete.cases(multi), ]).
 
 3. [**Advanced**]. Compute the area under the roc curve (AUC) of the selected model (Hint: investigate `pROC` package).
 
