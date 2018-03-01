@@ -109,7 +109,7 @@ a Q-Q plot.
 
 1. Get the R code to answer the questions in the section **R basics** that are available [here:](https://github.com/isglobal-brge/R_course/blob/master/Answer_exercises/Exercise_1.R) (https://github.com/isglobal-brge/R_course/blob/master/Answer_exercises/Exercise_1.R) and create a Markdown document having each task in a section
 
-2. Create the same report for the answers to the exercises of section **Graphics** that are available [here](https://github.com/isglobal-brge/R_course/blob/master/Answer_exercises/Exercise_4.R) (https://github.com/isglobal-brge/R_course/blob/master/Answer_exercises/Exercise_1.R)
+2. Create the same report for the answers to the exercises of section **Graphics** that are available [here](https://github.com/isglobal-brge/R_course/blob/master/Answer_exercises/Exercise_4.R) (https://github.com/isglobal-brge/R_course/blob/master/Answer_exercises/Exercise_4.R)
 
 3. Load the `multicentric.txt` data into R and create (using `compareGroups` package):
 
