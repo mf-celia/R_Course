@@ -92,6 +92,9 @@ ls()
 ## ------------------------------------------------------------------------
 search()
 
+## ------------------------------------------------------------------------
+ls("package:stats")[1:10]
+
 ## ---- eval=FALSE---------------------------------------------------------
 ## > spss.get
 ## Error: object 'spss.get' not found
@@ -201,7 +204,7 @@ table(df$edad.c3)
 table(df$naci_ca)
 levels(df$naci_ca)
 df$naci_ca2 <- df$naci_ca
-levels(df$naci_ca2) <- c("Española", "Extranjero", "Extranjero")
+levels(df$naci_ca2) <- c("Espa?ola", "Extranjero", "Extranjero")
 table(df$naci_ca2)
 
 ## ------------------------------------------------------------------------
@@ -237,11 +240,11 @@ df[4,]
 df[4:10,]
 
 ## ------------------------------------------------------------------------
-subset(df, sexo=="niña")
+subset(df, sexo=="ni?a")
 
 ## ------------------------------------------------------------------------
 table(df$naci_ca)
-subset(df, naci_ca%in%c("Española", "Otras"))
+subset(df, naci_ca%in%c("Espa?ola", "Otras"))
 
 ## ------------------------------------------------------------------------
 mean(df$edad)

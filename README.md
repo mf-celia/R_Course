@@ -1,12 +1,13 @@
 # Descriptive analysis and basic statistics in biomedical studies using R and Markdown
 
+`IACS - Instituto AragonÃ©s de Ciencias de la Salud. Zaragoza`
+
+
 **Juan R Gonzalez**
 
 Bioinformatics Research Group in Epidemiology - [BRGE](https://brge.isglobal.org)
 
 Barcelona Institute for Global Health - [ISGlobal](http://www.isglobal.org)
-
-`IACS - Instituto Aragonés de Ciencias de la Salud. Zaragoza, February 26th`
 
 
 ## Day 1: Descriptive analysis
@@ -25,10 +26,10 @@ Barcelona Institute for Global Health - [ISGlobal](http://www.isglobal.org)
   2. Logistic regression
   3. Survival analysis
 
-## Day 3: Miscellanea
-> * Advanced graphics
-> * Writting basic functions
-> * Improving computing 
+## Day 3: Graphics
+> * Basic R functions
+> * Lattice
+> * ggplot2
 
 ## Day 4: Reproducible research
 > * Knitr

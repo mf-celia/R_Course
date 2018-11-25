@@ -9,8 +9,8 @@ institute: |
   | ISGlobal - Barcelona Institute for Global Health
   | http://brge.isglobal.org
 date: |
-  | IACS - Instituto Aragonés de Ciencias de la Salud
-  | Zaragoza, February 26th
+  | IACS - Instituto AragonÃ©s de Ciencias de la Salud
+  | Zaragoza
 output:
   beamer_presentation:
     toc: false
@@ -341,6 +341,15 @@ ls()
 search()
 ```
 
+----
+
+The functions from a loaded package can be seen by
+
+```{r}
+ls("package:stats")[1:10]
+```
+
+
 # Installing packages
 
 ## Install and load packages
@@ -378,7 +387,18 @@ devtools::install_github("isglobal-brge/SNPassoc")
 ```{r}
 getwd()
 ```
+There are two ways of changing workin directory
 
+- Using tabs from menu
+- Writing R code
+
+---
+
+![Read data](figures/setwd.png)
+
+
+
+---
 
 ```{r setwd}
 setwd("c:/Juan/CREAL/GitHub/R_course")
@@ -424,6 +444,20 @@ library(readxl)
 - `header`: first row contains variable names?
 - `as.is`: convert character to factor variables?
 
+---
+
+![Read data](figures/load_data_1.png)
+
+
+---
+
+![Read data (cont)](figures/load_data_2.png)
+
+---
+
+![Read data (cont)](figures/load_data_3.png)
+
+---
 
 ```{r}
 df<-read.table("data/parto2.dat", sep=";", as.is=TRUE, 
@@ -476,17 +510,6 @@ df <- spss.get("data/parto2.sav",use.value.labels=TRUE, allow="_",
              datevars=c("dia_nac","dia_entr","ulti_lac"))
 head(df)
 ```
-
-
-# Read data using Rstudio
-
----
-
-![Read data](figures/load_data_1.png)
-
----
-
-![Read data](figures/load_data_2.png)
 
 
 # Export data
@@ -587,7 +610,7 @@ table(df$edad.c3)
 table(df$naci_ca)
 levels(df$naci_ca)
 df$naci_ca2 <- df$naci_ca
-levels(df$naci_ca2) <- c("Española", "Extranjero", "Extranjero")
+levels(df$naci_ca2) <- c("Espa?ola", "Extranjero", "Extranjero")
 table(df$naci_ca2)
 ```
 ---
@@ -671,7 +694,7 @@ df[4:10,]
 - Select rows by a condition, use `subset`
 
 ```{r}
-subset(df, sexo=="niña")
+subset(df, sexo=="ni?a")
 ```
 
 
@@ -681,7 +704,7 @@ subset(df, sexo=="niña")
 
 ```{r}
 table(df$naci_ca)
-subset(df, naci_ca%in%c("Española", "Otras"))
+subset(df, naci_ca%in%c("Espa?ola", "Otras"))
 ```       
 
 
