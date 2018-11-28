@@ -44,7 +44,6 @@ modBoth <- stepAIC(modAll, direction="both", trace=0)
 summary(modBoth)
 
 
-
 #
 # Extra
 #

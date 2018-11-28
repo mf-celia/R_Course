@@ -90,9 +90,9 @@ The file `multicentric.txt` contains the data of a multicentric case/control stu
 
 # Graphics
 
-1. Load the data available in the file `retinol.txt`    
-2. Create a histogram and a boxplot of `retplas` variable and plot them side-by-side on the same graphing region. Label the axes accordingly. Save your results as a Jpeg file.
-3. Plot `retplas` (y-axis) versus `retdiet` (X-axis) using an appropriate plotting command. Put a title on the graph and
+1. Load the data available in the file `retinol.txt`. Log-transform the variable `retplas` into another variable called `logretplas`.    
+2. Create a histogram and a boxplot of `logretplas` variable and plot them side-by-side on the same graphing region. Label the axes accordingly. Save your results as a Jpeg file.
+3. Plot `logretplas` (y-axis) versus `retdiet` (X-axis) using an appropriate plotting command. Put a title on the graph and
 labels on the axes.
 4. Fit a linear regresion model between both variables 
 (call this regression `mod`). Add the estimated regression line to the current plot and make it the colour blue.
