@@ -1,0 +1,97 @@
+---
+title: "Multicentric Analysis"
+author: "R course"
+date: "1 de marzo de 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+```
+
+# Inicio
+
+Cargamos las librerías
+
+```{r}
+library(compareGroups)
+library(Hmisc)
+library(MASS)
+```
+
+# Cargamos los datos
+
+```{r}
+multicentric <- read.delim("C:/Juan/CREAL/GitHub/R_course/Data_for_exercises/multicentric.txt", na.strings = c(" "))
+head(multicentric)
+```
+
+Cambio la categoría de referencia
+
+```{r}
+multicentric$caco <- relevel(multicentric$status, 2)
+```
+
+Pongamos primero unas etiquetas a las variables
+
+```{r}
+label(multicentric$caco) <- "Caso/control"
+label(multicentric$vph) <- "Test papilloma virus"
+```
+
+# Análisis descriptivo
+
+
+```{r}
+descr.multi <- compareGroups(caco ~ edad + niveledu + fumar +
+                               edad1sex + nembara + vph, multicentric)
+```
+
+Ahora creamos la tabla
+
+```{r}
+table.multi <- createTable(descr.multi)
+export2md(table.multi)
+```
+
+En la siguiente figura podemos ver ....
+
+```{r}
+plot(descr.multi['vph'], bivar=TRUE)
+```
+
+
+# Cálculo de ORs
+
+```{r}
+table.or <- createTable(descr.multi, show.ratio = TRUE,
+                      show.p.overall = TRUE, show.p.trend = TRUE)
+export2md(table.or)
+```
+
+
+# Supervivencia
+
+Cargamos datos
+
+```{r}
+pulmon <- read.delim("C:/Juan/CREAL/GitHub/R_course/Data_for_exercises/pulmon.txt", na.strings = c(NA, " ", ""))
+head(pulmon)
+```
+
+```{r}
+pulmon$tsurv <- Surv(pulmon$tiempo, pulmon$estado == 1)
+descr.pulmon <- compareGroups(tsurv ~ sexo + edad4 + estclin + ik5 +
+                                cirugia + quimio + radioter, pulmon)
+table.hr <- createTable(descr.pulmon, show.ratio = TRUE)
+export2md(table.hr)
+```
+
+Estimo el mejor modelo con un stepwise
+
+```{r}
+mod <- coxph(Surv(tiempo, estado) ~ estclin + ik5 +
+                                cirugia + quimio + radioter, pulmon)
+modStep <- stepAIC(mod, direction = "both")
+modStep
+```

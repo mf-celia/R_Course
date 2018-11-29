@@ -39,8 +39,7 @@ files/
 
 # mine ...
 
-*.Rmd
-/*.Rmd
+*.log
 *.tex
 /*.tex
 
