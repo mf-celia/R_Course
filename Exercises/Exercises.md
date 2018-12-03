@@ -11,19 +11,17 @@ institute: |
 date: |
   | IACS - Instituto Aragon?s de Ciencias de la Salud
   | Zaragoza, February 26th
+
+
 output:
-  BiocStyle::html_document:
-    toc_depth: 2
   BiocStyle::pdf_document:
+    toc_depth: 2
+  BiocStyle::html_document:
     toc_depth: 2
 ---
 
 
-```{r style, echo=FALSE, message=FALSE, warning=FALSE, results="asis"}
-library("knitr")
-#options(width=100)
-opts_chunk$set(message = FALSE, error = TRUE, warning = TRUE)
-```
+
 
 
 # R basics
