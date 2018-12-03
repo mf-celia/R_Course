@@ -1,0 +1,334 @@
+---
+title: "Statistical modeling"
+subtitle: "Descriptive analysis and basic statistics in biomedical studies using R and Markdown"
+author: | 
+  | Juan R Gonzalez
+  | juanr.gonzalez@isglobal.org
+institute: |
+  | BRGE - Bioinformatics Research Group in Epidemiology
+  | ISGlobal - Barcelona Institute for Global Health
+  | http://brge.isglobal.org
+date: |
+  | IACS - Instituto Aragonés de Ciencias de la Salud
+  | Zaragoza, February 26th
+output:
+  beamer_presentation:
+    toc: false
+    slide_level: 2
+    includes:
+      in_header: header.tex  
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE,comment="", message=FALSE, warning=FALSE, cache=TRUE, fig.width = 4, fig.height = 4)
+options(width=80)
+```
+
+# Statistical modelling
+
+---
+
+| Outcome       | Method | Example   
+| ------------- | ------ | ----------------------------------- 
+| Continuous    | Linear regression    | Factors that affects cholesterol 
+|               |                      | levels  
+| Binary        | Logistic regression  | Factors that affects developing 
+|               |                      | cancer   
+| Time to event | Survival             | Factor that affect time until 
+|               |                      | developing cancer
+
+
+# Linear regression
+
+---
+
+```{r lm, echo=FALSE}
+cal <- rnorm(100, 2800, 300)
+chol <- -80 + 0.1*cal + rnorm(100, 20, 26)
+plot(cal, chol, xlab="Calories consumption", ylab="Cholesterol level")
+abline(lm(chol~cal), lwd=2, col="blue")
+``` 
+
+## Linear model
+
+
+$$ Y = \alpha + \beta_1 X_1 + \beta_2 X_2 + \ldots + \beta_n X_n + \epsilon $$
+
+
+> *$\alpha$ correspond to the mean level of $Y$ in the population
+> *$\beta_j$ indicates the change in Y when $X_j$ changes in 1 unit (after keeping the rest of $X_k$ fixed) 
+
+---
+
+**Example:** Researchers are interested in knowing the factors that better explain air Ozone levels (variable `Ozone` in data frame `airquality`). They measure solar radiation (`Solar.R`), average wind (`Wind`) and temperature (`Temp`) in different months (`Months`) on 154 observations.
+
+```{r lm_mod}
+data(airquality)
+head(airquality)
+```
+
+## Simple linear regression
+
+```{r lmModS}
+mod <- lm(Ozone ~ Temp, data=airquality)
+mod
+```
+
+---
+
+```{r lmModSumm}
+summary(mod)
+``` 
+
+## Interpretation of categorical factors
+
+```{r lmModF}
+mod.lin <- lm(Ozone ~ Month, data=airquality)  
+mod.lin
+```
+
+```{r lmModFac}
+mod.fac <- lm(Ozone ~ as.factor(Month), data=airquality)  
+mod.fac
+```
+---
+
+```{r lmModFplot, echo=FALSE}
+boxplot(Ozone  ~ Month, data=airquality,
+        xlab="Month", ylab="Ozone level")
+```
+
+## Multiple linear regression
+
+```{r lmModM}
+mod <- lm(Ozone ~ Solar.R + Wind + 
+            Temp + as.factor(Month), data=airquality)
+mod
+```
+
+
+
+## Model validation
+
+```{r lmModVal}
+par(mfrow=c(2,2))
+plot(mod)
+```
+
+## Visualization
+
+```{r lmModPlot}
+mod <- lm(Ozone ~ Temp, data=airquality)
+plot(airquality$Temp, airquality$Ozone,
+     xlab="Temperature", ylab="Ozone", pch=16)
+abline(mod, lty=2, col="blue")
+````
+
+## Linear transformation
+
+```{r find_trans}
+library(car)
+trans <- powerTransform(mod)
+trans
+```
+
+```{r linerization}
+Ozone.trans <- bcPower(airquality$Ozone,
+                       coef(trans, round=TRUE))
+
+mod.trans <- lm(Ozone.trans ~ Temp, data=airquality)
+mod.trans
+```
+
+---
+
+```{r linerizationFig}
+plot(Ozone.trans ~ Temp, data=airquality)
+abline(mod.trans)
+```
+
+
+## Splines
+
+```{r modGam}
+library(mgcv)
+mod.gam <- gam(Ozone ~ s(Temp), data=airquality)
+plot(mod.gam, se=TRUE)
+```
+
+## Non-parametric test of linearity
+
+```{r modGamSumm}
+mod.gam <- gam(Ozone ~ s(Temp), data=airquality)
+summary(mod.gam)
+```
+
+
+# Logistic regression
+
+## Logistic Model 
+
+$Y$ variable is binary (case/control, relapse/non-relapse, mortality, ...). In that case, the logit
+transformation guarantees linearity.
+
+$$ \log(p(Y=1)/(1-p(Y=1))) = \alpha + \beta_1 X_1 + \ldots + \beta_k X_k $$
+
+$\exp(\beta_k)$ can be interpreted as the odds ratio (OR) of having/developing/being $Y=1$
+
+
+---
+
+
+**Example:** Reserchers are interested in determining whether a new treatment (varible `rx`) reduces mortality (variable `fustat`) in patients diagnosed with ovarian cancer. Data are available by typing:
+
+```{r lung}
+data(ovarian, package="survival")
+head(ovarian)
+```
+
+--- 
+
+```{r modL}
+mod2 <- glm(fustat ~ rx, data=ovarian, family="binomial")
+mod2
+```
+
+---
+
+```{r modLsumm}
+mod2 <- glm(fustat ~ rx, data=ovarian, family="binomial")
+summary(mod2)
+```
+
+
+# Survival analysis
+
+---
+
+However, in this study the probability of observing the outcome of interest depends on the time of follow-up. Therefore, survival analysis should be used instead. The most commong model is Cox proportional hazard risks model.
+
+$$ \lambda(t|X) = \lambda_0 (t) exp(\beta X) $$
+
+```{r modS}
+library(survival)
+mod3 <- coxph(Surv(futime, fustat) ~ rx, data=ovarian)
+summary(mod3) 
+```
+
+
+## Kaplan-Meier 
+
+Cox regression is a semi-parametric model. A non-parametric estimation of survival curve can also be computed using Kaplan-Meier estimator:
+
+```{r modKM}
+mod4 <- survfit(Surv(futime, fustat) ~ rx, data=ovarian)
+plot(mod4, col=c("red", "blue")) 
+```
+
+---
+
+Curves can be compared using log-rank rest
+
+```{r modLR}
+mod5 <- survdiff(Surv(futime, fustat) ~ rx, data=ovarian)
+mod5
+```
+
+---
+
+Or Gehan-Wilcoxon test that is designed to detect differences at the begining of the study follow-up.
+
+```{r modGW}
+mod6 <- survdiff(Surv(futime, fustat) ~ rx, data=ovarian,
+                 rho=1)
+mod6
+```
+
+## Model selection (general setting)
+
+Models can be compared using Likelihoo Ratio Test (LRT)
+
+```{r modLRT}
+air.ok <- airquality[complete.cases(airquality),]
+mod0 <- lm(Ozone ~ Wind, data=air.ok)
+mod1 <- lm(Ozone ~ Wind + Solar.R, data=air.ok) 
+anova(mod0, mod1, test="F")
+```
+
+---
+
+```{r modLRT2}
+mod0 <- glm(fustat ~ ecog.ps, data=ovarian, family="binomial")
+mod1 <- glm(fustat ~ ecog.ps + rx, data=ovarian, family="binomial")
+anova(mod0, mod1, test="Chi")
+```
+
+## Stepwise selection
+
+Real data problems normally consider several variables. Automatic LRTs should be used to select the best model:
+
+
+![Stepwise procedures](figures/modelSelection.jpg)
+
+
+---
+
+
+```{r modStep}
+library(MASS)
+modAll <- lm(Ozone ~ ., data=airquality)
+modForw <- stepAIC(modAll, direction="forw", trace=0)
+modForw
+```
+
+---
+
+
+```{r modStep2}
+modAll <- lm(Ozone ~ ., data=airquality)
+modBack <- stepAIC(modAll, direction="back", trace=0)
+modBack
+```
+---
+
+
+```{r modStep3}
+modAll <- lm(Ozone ~ ., data=airquality)
+modBoth <- stepAIC(modAll, direction="both", trace=0)
+modBoth
+```
+
+
+---
+
+```{r summaryStep}
+summary(modBoth)
+```
+
+---
+
+
+```{r modStep4}
+modAll <- lm(Ozone ~ . - Month, data=airquality)
+modBoth2 <- stepAIC(modAll, direction="both", trace=0)
+modBoth2
+```
+
+---
+
+```{r summaryStep2}
+summary(modBoth2)
+```
+
+---
+
+
+
+## Session info
+
+```{r}
+sessionInfo()
+```
+
