@@ -6,8 +6,11 @@ parto <- read.delim("data/parto2.dat", sep=";", header=FALSE)
 head(parto)
 View(parto)
 
+# el indivuo 1 de la variable 6 hay que cambiarlo
+parto[1,6] <- 1
+
 # create a new variable
-parto$newVar <- parto$V7/parto$V8
+parto$newVar <- parto$V7/(parto$V8^2)
 head(parto)
 
 # create a new variable
@@ -28,14 +31,20 @@ parto.sel <- subset(parto, parto$V9 == 2 & parto$V10 == 1)
 
 head(parto.sel)  
 
+dim(parto)
+dim(parto.sel)
+
 # subset (option 2)
 
-sel <- parto$V9 == 2
+sel <- parto$V9 == 2 & parto$V10 == 1
 parto.sel2 <- parto[  sel ,  ]
 
 
+ls()
 
+table(parto$V9)
 
+tt <- table(parto$V9)
 
-
+class(tt)
   
