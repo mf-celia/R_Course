@@ -1,6 +1,7 @@
 # get data
 setwd("c:/Juan/CREAL/GitHub/R_course/Data_for_exercises/")
-multi <- read.delim("multicentric.txt", na.strings = c(" ", "", NA))
+multi <- read.delim("multicentric.txt")
+head(multi)
 
 # normalidad
 hist(multi$edademba)
@@ -37,5 +38,6 @@ tt
 chisq.test(tt)
 
 
-# confusion
-wilcox.test(nembara ~ vph, data=multi)
+
+  
+  
