@@ -44,6 +44,8 @@ options(width=80)
 - Odds ratio estimation
 
 ![Odds ratio summarization table of a standard case-control study](figures/table2.png)
+
+
 ## compareGroups
 
 `compareGroups` is an R package available on CRAN to create descriptive tables
@@ -85,7 +87,22 @@ head(predimed)
 
 
 ```{r}
-descr <- compareGroups(group ~ sex + age + smoke, predimed)
+descr <- compareGroups(group ~ sex + age + smoke, predimed,
+                       method=1) # method = 1 default
+descr
+```
+
+---
+
+- method = 1 forces analysis as "normal-distributed";
+- method = 2 forces analysis as "continuous non-normal"; 
+- method = 3 forces analysis as "categorical"; and 
+- method = NA, which performs a Shapiro-Wilks test (similar to `ks.test`) to decide between normal or non-normal.
+
+
+```{r}
+descr <- compareGroups(group ~ sex + age + smoke, predimed,
+                       method=NA)
 descr
 ```
 
@@ -223,7 +240,7 @@ createTable(descr, hide.no="no", show.ratio=TRUE,
 - use `label` function from Hmisc package to label variables
 
 ```{r}
-label(predimed$age) <- "Age of participant"
+Hmisc::label(predimed$age) <- "Age of participant"
 ```
 
 - To know the original variable names (instead of labels)
